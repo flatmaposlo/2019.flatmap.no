@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-lookAndFeel: blue
+lookAndFeel: red
 order: 3
 ---
 
