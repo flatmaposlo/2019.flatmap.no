@@ -1,0 +1,17 @@
+{% assign speakers = site.talks | map: "speakers" | uniq | sort: 'name' %}
+<div class="speakers">
+{% for speaker in speakers %}
+    <div class="speaker">
+        {% assign talks = site.talks | where_exp: 'talk', 'talk.speakers contains speaker' %}
+        <a href="{{ talks[0].url }}">
+            <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+        </a>
+        <h3><a href="{{ talks[0].url }}">{{ speaker.name }}</a></h3>
+        <ul class="talks">
+            {% for talk in talks  %}
+                <li><a href="{{ talk.url }}">{{ talk.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
+</div>

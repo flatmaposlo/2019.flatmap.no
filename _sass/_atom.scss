@@ -1,0 +1,88 @@
+@import "theme";
+
+body {
+  font-family: $font-family-base;
+  //font-size: 2vw;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-text;
+  background-color: $color-background;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  line-height: 1.2;
+  font-weight: $style-bold;
+}
+
+h1 {
+  font-size: calc(1vw + 2.875rem);
+  margin: 12*$style-margin 0 2*$style-margin 0;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin: 9*$style-margin 0 2*$style-margin 0;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 8*$style-margin 0 2*$style-margin 0;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin: 6*$style-margin 0 2*$style-margin 0;
+}
+
+h5 {
+  font-size: 1.6rem;
+  margin: 4*$style-margin 0 $style-margin 0;
+}
+
+h6 {
+  font-size: 1.4rem;
+  margin: 2*$style-margin 0 $style-margin 0;
+}
+
+p {
+  margin-bottom: 2*$style-margin;
+  margin-top: 2*$style-margin;
+  line-height: 1.4;
+  font-size: calc(0.2vw + 1rem);
+  text-align: justify;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+  color: $color-link;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: $style-margin-medium;
+}
+
+section {
+  margin-top: $style-margin-large;
+  margin-bottom: $style-margin-large;
+}
+
+.max-width-90-percent {
+ max-width: 90%;
+}

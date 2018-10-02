@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /talks/:name
+---
+
+{% assign talk = page %}
+
+<section class="talk">
+  <div class="wrap">
+    <h2>{{ talk.title }}</h2>
+    {% if talk.movie %}
+      <iframe class="movie" src="{{ talk.movie }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    {% endif %}
+    <p class="type">{{ talk.type }}</p>
+    <div class="description">{{ talk.description }}</div>
+
+    {% for speaker in talk.speakers %}
+    <div class="speaker">
+      <a name="{{ speaker.name }}"></a>
+      <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+      <h3>{{ speaker.name }}</h3>
+      {% if speaker.twitter %}
+        <p><a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
+      {% endif %}
+      <div class="bio">{{ speaker.bio }}</div>
+    </div>
+    {% endfor %}
+    
+  </div>
+
+</section>

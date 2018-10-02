@@ -1,0 +1,53 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+   {% include head.html %}
+</head>
+<body>
+
+<nav class="menubar">
+    <div class="wrap">
+      {% include menubar.html %}
+    </div>
+</nav>
+<header class="header">
+  <div class="logo">
+    <a href="/">
+      <img src="{{ site.path }}/assets/img/flatMapLogo2019.svg" alt="flatMap(Oslo) 2019" />
+    </a>
+  </div>
+  <div class="hero">
+    <div class="wrap">
+      <div class="date">8-9 May 2019, Oslo Norway</div>
+      <p class="">
+        A functional programming conference
+        with focus on Scala and the Java Virtual Machine
+      </p>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  {%include section_call_for_paper.html %}
+
+  {%include section_ticket_sale.html %}
+</div>
+
+<!-- {%include section_schedule.html %} -->
+
+<div class="wrap">
+  {%include section_about.html %}
+</div>
+
+{% include venue_map.html %}
+
+<div class="wrap">
+  {%include section_venue.html %}
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

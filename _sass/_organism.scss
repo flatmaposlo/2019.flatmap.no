@@ -1,0 +1,244 @@
+@import "molecule";
+
+.announce {
+
+  padding: $style-margin-medium;
+
+  color: $color-black;
+  background-color: $color-white;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+
+
+  .call_for_speakers {
+    border-color: $color-deep-purple;
+    padding: $style-margin-medium;
+    display: inline-block;
+    a {
+      color: $color-white;
+    }
+  }
+}
+
+#venue {
+
+  padding: 0;
+
+  .address {
+    position: absolute;
+    z-index: 999;
+    background: $color-gray-dark;
+    color: $color-white;
+    margin-top: $style-margin-medium;
+    padding: $style-margin-medium;
+    width: 11rem;
+    text-align: left;
+    h2 {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+#map {
+  height: 25vh;
+  min-height: 14rem;
+}
+
+.about, .sponsorer {
+  padding-top: $style-margin-large;
+  padding-bottom: $style-margin-large;
+}
+
+.about {
+  .firm {
+    font-weight: $style-bolder;
+  }
+}
+
+.footer {
+  background: $color-gray-lighter;
+  ul {
+    list-style: none;
+  }
+
+  @extend %lookAndFeelBackground;
+
+  .about{
+    text-align: center;
+    color: $color-white;
+    a{
+      color: $color-white;
+    }
+  }
+
+}
+
+.talk {
+
+  .movie{
+    @include on-device(medium) {
+      height: 300px;
+    }
+  
+    @include on-device(large) {
+      height: 450px;
+      
+    }
+    width: 100%;
+  }
+
+  .type{
+    font-family: $font-family-subheading;
+  }
+
+  .abstract, .description {
+    text-align: left;
+
+    margin-bottom: $style-margin-medium;
+
+    @media screen and (min-width: 400px) {
+      text-align: justify;
+    }
+  }
+
+  h3 {
+    margin-top: $style-margin-large;
+    margin-bottom: 1em;
+  }
+
+  .bio {
+    text-align: left;
+    @media screen and (min-width: 400px) {
+      text-align: justify;
+    }
+  }
+  text-align: center;
+
+}
+
+.talks{
+  .meta{
+    font-family: $font-family-subheading;
+  }
+
+  @extend %lookAndFeelBorder;
+  
+  h2{
+    border-left-width: 2*$style-margin;
+    border-left-style: solid;
+    padding-left: 2*$style-margin;
+  }
+}
+
+.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  .speaker {
+
+    margin-bottom: $style-margin-medium;
+    text-align: center;
+    flex-basis: 100%;
+  
+    .titleTalk {
+      a {
+        color: $color-text;
+        font-family: $font-family-subheading;
+      }
+    }
+
+    img {
+      margin-top: $style-margin-large;
+      width: 180px;
+      border-radius: 90px;
+    }
+  
+    @include on-device(medium) {
+      flex-basis: 30.1%;
+    }
+  
+    @include on-device(large) {
+      flex-basis: 30.1%;
+  
+      .profile {
+        margin: 0;
+        padding: 0;
+      }
+    
+      text-align: center;
+    }
+  
+  }
+}
+
+section.schedule_frontpage {
+
+  margin-top: $style-margin-large;
+  margin-bottom: $style-margin-large;
+
+  a {
+    text-decoration: none;
+  }
+
+  .schedule_speaker {
+    font-weight: bold;
+  }
+
+  .time {
+    font-weight: bold;
+    padding-top: 5*$style-margin;
+    padding-bottom: 3*$style-margin;
+    text-align: center;
+  }
+
+  .days, .day{
+    text-align: center;
+  }
+
+  .schedule {
+
+    .conference {
+      padding: 2*$style-margin;
+      text-align: center;
+    }
+
+    @extend %lookAndFeelBorder;
+
+    .Presentation, .presentation, .Workshop, .workshop  {
+      padding: 2*$style-margin;
+      text-align: left;
+      height: 100%;
+      border-left-width: 2*$style-margin;
+      border-left-style: solid;
+      div{
+        margin-bottom: $style-margin;
+      }
+    }
+
+    ul.tracks {
+      height: 100%;
+      width: 100%;
+      display: table;
+    }
+
+    li.track {
+      width: 50%;
+      height: 100%;
+      display: table-cell;
+    }
+
+    li.workshops {
+      width: 50%;
+      height: 100%;
+      display: table-cell;
+
+      ul{
+        height: 100%;
+      }
+    }
+  }
+}

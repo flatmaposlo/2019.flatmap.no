@@ -1,0 +1,43 @@
+
+<footer class="footer">
+  <div class="sponsorer">
+    <div class="wrap">
+      <h2>Sponsors</h2>
+      <ul class="gallery text-center">
+        {% for sponsor in site.data.sponsors%}
+          <li>
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="{{ site.path }}/assets/img/{{ sponsor.image }}" alt="{{ sponsor.alt }}" />
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+      <div class="text-center">
+        <p>
+          Do you want to sponsor flatMap(Oslo)?
+          <br/>
+          Send an email to <a href="mailto:flatmap@arktekk.no">flatmap@arktekk.no</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="about lookAndFeel {{ page.lookAndFeel }}">
+    <div class="wrap">
+      <div class="firm">flatMap(Oslo)</div>
+      <div><a href="mailto:flatmap@arktekk.no">flatmap@arktekk.no</a></div>
+      <div><a href="https://twitter.com/flatmaposlo">@flatmaposlo</a></div>
+
+      <div class="previous">
+        <div>Previous years:</div>
+        <a href="http://web.archive.org/web/20120519235017/http://flatmap.no/">2012</a> |
+        <a href="http://2013.flatmap.no">2013</a> |
+        <a href="http://2014.flatmap.no">2014</a> |
+        <a href="http://2015.flatmap.no">2015</a> |
+        <a href="http://2016.flatmap.no">2016</a> |
+        <a href="http://2017.flatmap.no">2017</a> |
+        <a href="http://2018.flatmap.no">2018</a>
+      </div>
+    </div>
+  </div>
+</footer>
+

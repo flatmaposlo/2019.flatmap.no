@@ -1,0 +1,22 @@
+title: flatMap(Oslo) 2018
+email: flatmap@arktekk.no
+description: > # flatMap(Oslo) 2018 functional programming conference
+baseurl: ""
+url: "http://2018.flatmap.no"
+
+destination: docs
+include: ["_pages"]
+permalink: /:title/
+exclude: [vendor]
+includes:
+  - _pages
+
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:name
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
