@@ -105,17 +105,6 @@ nav {
 .header {
   text-align: center;
 
-  @include on-device(small){
-    .wrap .logo{
-      height: 150px;
-    }
-    .logo{
-      img{
-        height: 150px;
-      }
-    }
-  }
-
   .text{
     vertical-align: top;
   }
@@ -123,7 +112,7 @@ nav {
   img {
     width: 80vh;
     @media screen and (min-width: 610px) {
-      max-width: 100%;
+      max-width: 610px;
     }
     @media screen and (max-width: 599px) {
       max-width: calc(100% - 1rem) ;
