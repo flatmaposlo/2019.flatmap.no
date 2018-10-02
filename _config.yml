@@ -1,8 +1,8 @@
-title: flatMap(Oslo) 2018
+title: flatMap(Oslo) 2019
 email: flatmap@arktekk.no
-description: > # flatMap(Oslo) 2018 functional programming conference
+description: > # flatMap(Oslo) 2019 functional programming conference
 baseurl: ""
-url: "http://2018.flatmap.no"
+url: "http://2019.flatmap.no"
 
 destination: docs
 include: ["_pages"]
