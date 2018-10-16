@@ -1,5 +1,6 @@
 ---
 layout: page
+
 title: Organizer
 permalink: /organizer/
 lookAndFeel: light-green
@@ -8,11 +9,9 @@ order: 6
 
 # Organizer
 
-Arktekk is a small consultancy based in Oslo, Norway.
-We are 10 consultants helping people build awesome software using
-Functional Programming. 
-
 flatMap(Oslo) is organized by Arktekk with the help of other sponsors. 
+Arktekk is a small consultancy based in Oslo, Norway.
+We are 10 consultants helping people build awesome software using Functional Programming. 
 Arktekk free up time for some of its consultants to organize the conference.
 It requires a lot of time and dedication.
 
@@ -27,3 +26,4 @@ But above all it should enable the partisipants to create amazing software.
 
 Please talk to any Arktekk consultants before, after or during the conference to give advice, feedback or food for thought.
 It is highly appreciated. 
+
