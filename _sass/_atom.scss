@@ -86,3 +86,8 @@ section {
 .max-width-90-percent {
  max-width: 90%;
 }
+
+ul {
+  list-style: square outside none;
+  margin-left: $style-margin-large;
+}
