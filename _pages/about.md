@@ -12,11 +12,11 @@ flatMap(Oslo) is an annual conference in Oslo, Norway.
 From the beginning in 2011 we have focused on functional programming in general
 and Scala in particular.
 
-Last year's conference was yet another great success with about 100 energized
+[Last year's conference](https://2018.flatmap.no) was yet another great success with about 100 energized
 attendants, listening to 26 amazing speakers from all over the world.
 
 The next conference will be on May 8th and 9th 2019.
-The goal for this year is the same. Small and intimate, but with high ambitions.
+The goal for this year is the same as before. Small and intimate, but with high ambitions.
 We hope you will join us.
 
 
