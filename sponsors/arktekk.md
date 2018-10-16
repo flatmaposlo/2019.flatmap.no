@@ -1,5 +1,0 @@
----
-layout: sponsor
----
-
-# Arktekk
