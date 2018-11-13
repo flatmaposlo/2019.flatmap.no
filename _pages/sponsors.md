@@ -15,7 +15,7 @@ We are very grateful to the 9 sponsors that enabled us to host such a conference
  
 The next conference will be on May 8th and 9th 2019. 
  
-We hope you will join us in promoting functional programming and Scala for Norway's programming community. 
+We hope you will join us in promoting functional programming and Scala. 
 Your sponsorship enables us to make the best possible conference, so attendees will keep coming back year after year. 
 We are also proud of all the video content that is available online.
 
