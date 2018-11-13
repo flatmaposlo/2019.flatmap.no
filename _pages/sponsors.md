@@ -34,17 +34,18 @@ We would like to offer the following *sponsorship package*.
 * Logo on our website (https://2019.flatmap.no)
 * Logo on all printed material and pause slides during the conference
 * Optionally have a 30 second video (without audio) that is regularly presented at the conference
-* Optionally a prompt page at 2019.flatmap.no
+* Optionally a promo page at 2019.flatmap.no
 * 1 free ticket to attend the conference
 * The right to use flatMap(Oslo) in marketing
- 
+* Sponsor promo code for reduced ticket price
+
 We offer you this for NOK 25 000 (VAT not included).
  
 The economic goal for flatMap(Oslo) is to break even. We will put all funds into making a better conference. 
  
 If you have any questions, or would like more information, do not hesitate to contact us. Please send us an email - flatmap@arktekk.no.
 
-Your’s sincerely,
+Yours sincerely,
 
 Stein Kåre Skytteren  
 flatMap(Oslo) 2019  
