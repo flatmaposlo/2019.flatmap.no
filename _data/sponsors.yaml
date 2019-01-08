@@ -1,0 +1,9 @@
+- name  : Bekk
+  url   : https://www.bekk.no
+  image : bekk.png
+  alt   : Bekk
+
+- name  : FINN.no
+  url   : https://www.finn.no
+  image : finn.png
+  alt   : FINN.no
