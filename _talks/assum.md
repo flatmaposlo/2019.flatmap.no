@@ -8,7 +8,7 @@ level: "Intermediate"
 tags:
   - Clojure
   - Algorithms
-abstract: >
+abstract:
    "<p>A transducer is composable algorithmic transformation, but what does that even mean? In the introduction to transducers it’s described as a function with the following signature: <code>(whatever, input -> whatever) -> (whatever, input -> whatever)</code>
    </p>"
 description: >
