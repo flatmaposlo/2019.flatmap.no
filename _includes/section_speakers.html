@@ -1,3 +1,5 @@
+<h2>Speakers</h2>
+
 {% assign speakers = site.talks | map: "speakers" | uniq | sort: 'name' %}
 <div class="speakers">
 {% for speaker in speakers %}
