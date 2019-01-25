@@ -90,4 +90,5 @@ section {
 ul {
   list-style: square outside none;
   margin-left: $style-margin-large;
+  font-size: calc(0.2vw + 1rem);
 }
