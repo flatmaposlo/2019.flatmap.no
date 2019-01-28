@@ -4,7 +4,7 @@ layout: talk
 lookAndFeel: indigo
 page_name: "van-geest"
 type: "Presentation"
-level: "Intermediate"
+level: "All"
 tags:
   - Scala
   - Path Dependant Types
