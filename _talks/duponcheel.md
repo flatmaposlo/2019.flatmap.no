@@ -1,5 +1,5 @@
 ---
-title: "Program Description Based Programmi"
+title: "Program Description Based Programming"
 layout: talk
 lookAndFeel: red
 page_name: "duponcheel"
