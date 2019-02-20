@@ -6,8 +6,9 @@ page_name: "duponcheel"
 type: "Presentation"
 level: "Beginner"
 tags: 
-  - Machine Learning
+  - Dotty
   - Scala
+  - FP
 abstract: >
    <p>This is about a library, Program Description Based Programming (PDBP), written using Dotty.
       PDBP implements FP, the language presented by John Backus during his Turing Award winning lecture.
