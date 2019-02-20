@@ -1,8 +1,8 @@
 ---
-title: "Reinforcement Learning in Scala"
+title: "Program Description Based Programmi"
 layout: talk
-lookAndFeel: cyan
-page_name: "birchall"
+lookAndFeel: red
+page_name: "duponcheel"
 type: "Presentation"
 level: "Beginner"
 tags: 
