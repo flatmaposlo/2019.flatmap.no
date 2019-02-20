@@ -4,7 +4,7 @@ layout: talk
 lookAndFeel: red
 page_name: "duponcheel"
 type: "Presentation"
-level: "Beginner"
+level: "Intermediate"
 tags: 
   - Dotty
   - Scala
