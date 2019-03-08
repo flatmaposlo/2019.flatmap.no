@@ -1,7 +1,7 @@
 ---
 title: "When Everything Fits: The Beauty of Composition"
 layout: talk
-lookAndFeel: orange
+lookAndFeel: amber
 page_name: "hauck"
 type: "Presentation"
 level: "Intermediate"
