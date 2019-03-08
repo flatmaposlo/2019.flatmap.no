@@ -20,6 +20,6 @@ speakers:
   name: "Justin Kaeser"
   bio: >
     <p>Justin believes in “Tools before Rules”: automating the development toolchain to remove the friction of dealing with manual processes. He works on this goal as part of the IntelliJ Scala plugin team</p
-  image: "kaeser.jpg"
+  image: "kaeser.png"
   twitter: ebenwert
 ---
