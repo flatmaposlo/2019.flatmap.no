@@ -10,7 +10,7 @@ order: 5
 <div class="talks">
 {% assign talks = site.talks | sort: 'title' %}
 {% for talk in talks %}
-    <h2><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
+    <h2 class="{{talk.type}} lookAndFeel {{talk.lookAndFeel}}"><a href="{{ talk.url }}">{{ talk.title }}</a></h2>
     <div class="meta">
         <div class="type">{{ talk.type }}</div> 
         by
