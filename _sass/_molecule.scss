@@ -190,15 +190,6 @@ nav {
 }
 
 
-.speakerImage {
-  width: 180px;
-  border-radius: 90px;
-  margin-top: $style-margin-large;
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1);
-}
-
 .text-center{
   text-align: center;
 }
@@ -213,11 +204,10 @@ nav {
     display: inline-block;
     @media screen and (max-width: 799px) {
       width: calc((100% - 2rem) / 2);
-
     }
 
     @media screen and (min-width: 800px) {
-      width: calc((100% - 2rem) / 3);
+      width: calc((100% - 3rem) / 3);
     }
 
     img {

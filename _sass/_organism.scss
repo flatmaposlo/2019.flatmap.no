@@ -47,11 +47,6 @@
   min-height: 14rem;
 }
 
-.about, .sponsorer {
-  padding-top: $style-margin-large;
-  padding-bottom: $style-margin-large;
-}
-
 .about {
   .firm {
     font-weight: $style-bolder;
@@ -144,6 +139,17 @@
     text-align: center;
     flex-basis: 100%;
   
+    & > a{
+      height: 180px;
+      width: 180px;
+      overflow: hidden;
+      border-radius: 90px;
+      display: inline-block;
+      clear: both;
+      text-align: center;
+      margin-top: $style-margin-large;
+    }
+
     .titleTalk {
       a {
         color: $color-text;
@@ -151,10 +157,11 @@
       }
     }
 
-    img {
-      margin-top: $style-margin-large;
+    .speakerImage {
       width: 180px;
-      border-radius: 90px;
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+      filter: grayscale(1);
     }
   
     @include on-device(medium) {
@@ -282,4 +289,11 @@ section.schedule_frontpage {
       }
     }
   }
+}
+
+.sponsorer{
+  ul{
+    margin: 0;
+  }
+
 }
