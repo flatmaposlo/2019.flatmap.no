@@ -42,10 +42,16 @@ section{
 
 header{
 
-  @extend %lookAndFeelBackground;
+  .logowrapper{
+    display: inline-block;
+    @extend %lookAndFeelBackground;
+  }
 
   img{
     max-width: 350px;
+    max-width: 100px;
+    padding: 3*$style-margin;
+    width: 100%;
   }
   @include on-device(small){
     img{
@@ -53,15 +59,11 @@ header{
     }
   }
   .mini.logo{
-    max-width: 100px;
-    padding: 3*$style-margin;
     border-radius: 0 0 3*$style-margin 0;
-    display: inline-block;
-    width: 100%;
     margin-right: $style-margin-medium;
   }
 
-  a {
+  a{
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -72,6 +74,7 @@ header{
     vertical-align: top;
   }
 }
+
 
 nav {
   
@@ -97,10 +100,27 @@ nav {
       padding: $style-margin;
       padding-right: 2*$style-margin;
       display: inline;
-      margin-bottom: $style-margin-medium;
+
     }
   }
 }
+
+.index{
+  nav{
+    @extend %lookAndFeelBorder;
+    a:hover {
+      text-decoration: none;
+      border-bottom-width: 0;
+    }
+    a{
+      border-bottom: solid $style-margin/2;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      line-height: 0;
+    }
+  }
+}
+
 
 .header {
   text-align: center;
@@ -186,7 +206,6 @@ nav {
 .gallery {
   clear: both;
 
-  padding: gutter(8);
   padding-bottom: 0;
 
   li {

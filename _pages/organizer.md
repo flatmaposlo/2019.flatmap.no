@@ -3,7 +3,7 @@ layout: page
 
 title: Organizer
 permalink: /organizer/
-lookAndFeel: light-green
+lookAndFeel: purple
 order: 6
 ---
 
