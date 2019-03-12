@@ -1,31 +1,28 @@
 ---
-title: "Genetic programming is waiting for better tools"
+title: "Building a reactive multi-user document editor in ScalaJS"
 layout: talk
-lookAndFeel: red
-page_name: "davletkaliyev"
+lookAndFeel: orange
+page_name: "ypma"
 type: "Presentation"
-level: "All"
+level: "Intermediate"
 tags:
-  - genetic programming
-  - evolutionary computation
-  - functional programming
+  - scalajs
+  - outwatch
+  - akka
+  - scala
+  - eventsourcing
 abstract: >
-   <p>Genetic programming is applicable in a limited domain. Could the reason be the current state of software engineering? </p>
-   
-   <p>Let’s imagine the future of programming languages (or forgotten past), FP, homoiconic languages and better APIs in the next 20-40 years: can they help genetic thrive? </p>
+   <p>Recently, reactive architectures have “graduated” from being backend-only, to also enriching frontend applications. This talk describes the creation of a multi-user structured document editor, which allows full real-time collaboration business documents, using ScalaJS, Outwatch, and Akka. </p>
 description: >
-   <p>Genetic programming seems to be applicable in a very limited domain. Could the reason be the current state of software engineering? </p>
+   <p>At Tradeshift, we want to enable our users to work more closely together with their colleagues, suppliers, and customers. Real-time communication is becoming a growing feature that enables this, and we found a reactive architecture is a good implementation fit. </p>
 
-   <p>What if we imagine the future of programming languages (or maybe the forgotten past), functional and homoiconic languages and better APIs (or lack thereof) in the next 20-40 years: could they enable genetic programming to finally thrive and work for common problems? </p>
+   <p>In that context, we are experimenting with a front-end architecture that embraces event-sourcing all the way into the web browser. By exchanging fine-grained events between clients, one can guarantee that all users eventually see the same document, as close to real-time as possible. </p>
 
-   <p>Computer scientists and engineers were thinking about universal modes of communication between computer programs since the 30s. The current state of API-driven communication is a nightmare by their standards, but we seem to only go deeper in it, solving more and more accidental complexity and losing energy and time. </p>
-   
-   <p>LISPS continue to show us that good ideas come from simplicity, and the power of composition is the key to fighting complexity. I’d love to discuss how these ideas, if explored deeper, can allow genetic programming to evolve (pun intended) and solve real world problems at last. </p>
+   <p>We realize this vision by using functional programming and streaming techniques, which we found a great fit for event sourcing. Outwatch and ScalaJS power the front-end part, with a clustered Akka application as back-end, storing events in a Cassandra cluster. </p>
 speakers:
 -
-  name: "Rakhim Davletkaliyev"
+  name: "Jan Ypma"
   bio: >
    <p>Jan Ypma is a full-stack software architect at Tradeshift, focusing on developing at scale. He has designed Java enterprise systems at international level in a variety of domains. His background in electrical engineering and embedded software gives him a fresh out-of-box perspective. Jan is a contributor to the Akka framework and other open source projects, and a regular speaker on event sourcing with Java and Scala. </p>
   image: "ypma.png"
-  
 ---
