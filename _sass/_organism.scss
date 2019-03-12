@@ -229,7 +229,6 @@ section.schedule_frontpage {
     .Presentation, .presentation  {
       text-align: right;
       border-left: 0;
-      border-bottom-left-radius: 2*$style-margin;
       margin-top: $style-margin;
       @media screen and (min-width: 800px) {
         height: 12rem;
@@ -262,7 +261,6 @@ section.schedule_frontpage {
         float: right;
       }
       
-      border-bottom-right-radius: 2*$style-margin;
       margin-top: $style-margin;
       
       &::before {
