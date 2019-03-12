@@ -25,7 +25,9 @@ speakers:
 -
   name: "Rakhim Davletkaliyev"
   bio: >
-   <p>Jan Ypma is a full-stack software architect at Tradeshift, focusing on developing at scale. He has designed Java enterprise systems at international level in a variety of domains. His background in electrical engineering and embedded software gives him a fresh out-of-box perspective. Jan is a contributor to the Akka framework and other open source projects, and a regular speaker on event sourcing with Java and Scala. </p>
-  image: "ypma.png"
-  
+   <p>I’m a professional software developer since 2010, with experience in systems programming, Windows development and web development. I’ve been working with large corporations (Ericsson), small consultancies (Macadamian Labs Canada), and startups (yvi.kz, Hexlet). I co-founded Hexlet, an educational startup in Finland. Today Hexlet is a home for 200k students who learn computer programming and software development, get hired and build cool stuff.</p>
+
+   <p>In 2019 I left my position as a CEO and am about to launch a new kind of online school for beginner developers. </p>
+  image: "davletkaliyev.jpg"
+  twitter: freetonik
 ---
