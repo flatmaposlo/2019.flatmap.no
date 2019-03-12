@@ -5,170 +5,44 @@
         <a href="#day0" class="day">Day 0</a> | <a href="#day1" class="day">Day 1</a> | <a href="#day2" class="day">Day 2</a>
     </div>
     <div class="row">
-        <a name="schedule"></a>
-        <div class="day">
-            <a name="day0"></a>
-            <h3>DAY 0</h3>
-        </div>
-
-        <ul class="schedule">
-            <li class="time">12:00</li>
-            <li class="Presentation lookAndFeel deep-orange" style="text-align: center;">
-                <a href="https://www.meetup.com/scalabin/events/249937547">
-                    <div>OPEN SOURCE SPREE</div>
-                    <div>(free for all, separate registration at meetup)</div>
-                </a>
-            </li>
-            <li class="time">18:00</li>
-        </ul>
+        <a name="schedule"></a>        
 
         <div class="day">
             <a name="day1"></a>
             <h3>DAY 1</h3>
         </div>
-        <ul class="schedule">
-            <li class="time">08:00</li>
-            <li class="conference ">REGISTRATION, COFFEE</li>
-            <li class="time">08:45</li>
-            <li class="conference ">WELCOME, PRACTICAL INFORMATION</li>
-            <li class="time">09:00</li>
-            {% include slot.html talk="de_goes" %}
-            <li class="time">10:10</li>
-            <li class="splittracks">
-                <ul class="tracks">
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="labella" %}
-                            <li class=" time">11:00</li>
-                            {% include slot.html talk="christiansen" %}
-                        </ul>
-                    </li>
-                    <li class="workshops">
-                        <ul class="split">
-                            {% include slot.html talk="harlin" %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="time">11.40</li>
-            <li class="conference ">LUNCH</li>
-            <li class="time">12:30</li>
-            <li class="splittracks">
-                <ul class="tracks">
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="andersen_gott" %}
-                        </ul>
-                    </li>
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="kunicki" %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="time">13:20</li>
-            <li class="splittracks">
-                <ul class="tracks">
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="jacobowitz" %}
-                        </ul>
-                    </li>
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="assum" %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="time">14:00</li>
-            <li class="conference ">BREAK</li>
-            <li class="time">14:20</li>
-            <li class="splittracks">
-                <ul class="tracks">
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="geirsson" %}
-                            <li class=" time">15:10</li>
-                            {% include slot.html talk="elstad" %}
-                        </ul>
-                    </li>
-                    <li class="workshops">
-                        <ul class="split">
-                            {% include slot.html talk="wickstrom" %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="time">15:50</li>
-            <li class="conference ">BREAK</li>
-            <li class="time">16:10</li>
-            {% include slot.html talk="moore" %}
-            <li class="time">17:00</li>
-            {% include slot.html talk="host_winje" %}
-            <li class="time">18.00</li>
-            <li class="conference ">CONFERENCE DINNER</li>
-        </ul>
+        <div class="schedule">
+            <div class="item">
+                <div class="time">08:00</div>
+                <div class="conference ">REGISTRATION, COFFEE</div>
+            </div>
+            <div class="item">   
+                <div class="time">08:45</div>
+                <div class="conference ">WELCOME, PRACTICAL INFORMATION</div>
+            </div>
+
+            {% include slot.html time="10:10" talk="de-goes" %}
+            {% include slot.html time="10:10" talk="assum" %}
+            {% include slot.html time="10:10" talk="duponcheel" %}
+            {% include slot.html time="10:10" talk="birchall" %}
+            {% include slot.html time="10:10" talk="hauck" %}
+            {% include slot.html time="10:10" talk="harlin" %}
+            {% include slot.html time="10:10" talk="kaeser" %}
+            {% include slot.html time="10:10" talk="lambda" %}
+        </div>
         <div class="day">
             <a name="day2"></a>
             <h3>DAY 2</h3>
         </div>
-        <ul class="schedule">
-            <li class="time">08:00</li>
-            <li class="conference ">COFFEE</li>
-            <li class="time">08:45</li>
-            {% include slot.html talk="torreborre" %}
-            <li class="time">09.25</li>
-            <li class="conference ">BREAK</li>
-            <li class="time">09:40</li>
-            {% include slot.html talk="kozlowski" %}
-            <li class="time">10:30</li>
-            {% include slot.html talk="martres" %}
-            <li class="time">11.10</li>
-            <li class="conference ">LUNCH</li>
-            <li class="time">12:00</li>
-            <li class="splittracks">
-                <ul class="tracks">
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="carolan_clinton" %}
-                            <li class="time">12:50</li>
-                            {% include slot.html talk="mulder" %}
-                        </ul>
-                    </li>
-                    <li class="workshops">
-                        <ul class="split">
-                            {% include slot.html talk="winje_mork" %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="time">13.30</li>
-            <li class="conference ">BREAK</li>
-            <li class="time">13:50</li>
-            <li class="splittracks">
-                <ul class="tracks">
-                    <li class="track">
-                        <ul class="split">
-                            {% include slot.html talk="claramunt" %}
-                            <li class="time">14:40</li>
-                            {% include slot.html talk="siqueira" %}
-                        </ul>
-                    </li>
-                    <li class="workshops">
-                        <ul class="split">
-                            {% include slot.html talk="cieslak" %}
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="time">15.20</li>
-            <li class="conference ">BREAK</li>
-            <li class="time">15:40</li>
-            {% include slot.html talk="ferreira" %}
-            <li class="time">16:30</li>
-            {% include slot.html talk="geest" %}
-        </ul>
+        <div class="schedule">  
+            {% include slot.html time="10:10" talk="millidahl" %}
+            {% include slot.html time="10:10" talk="davletkaliyev" %}
+            {% include slot.html time="10:10" talk="jordan" %}
+            {% include slot.html time="10:10" talk="osheim" %}
+            {% include slot.html time="10:10" talk="skully" %}
+            {% include slot.html time="10:10" talk="van-geest" %}
+            {% include slot.html time="10:10" talk="wickstrom" %}
+            {% include slot.html time="10:10" talk="ypma" %}
+        </div>
     </div>
 </section>

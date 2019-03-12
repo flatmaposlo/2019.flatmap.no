@@ -1,13 +1,14 @@
 {% for talk in site.talks %}
     {% if talk.page_name == include.talk %}
-        <li class="{{talk.type}} lookAndFeel {{talk.lookAndFeel}}">
+        <div class="{{talk.type}} lookAndFeel {{talk.lookAndFeel}}">
             <a href="{{ talk.url }}">
+                <div class="time">{{include.time}}</div>
                 <div>{{talk.title}}</div>
                 {% for speaker in talk.speakers %}
                     <div class="schedule_speaker">{{speaker.name}}</div>
                 {% endfor %}
                 <div class="schedule_type">{{talk.type}}</div>
             </a>
-        </li>
+        </div>
     {% endif %}
 {% endfor %}

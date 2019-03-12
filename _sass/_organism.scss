@@ -194,9 +194,6 @@ section.schedule_frontpage {
 
   .time {
     font-weight: bold;
-    padding-top: 5*$style-margin;
-    padding-bottom: 3*$style-margin;
-    text-align: center;
   }
 
   .days, .day{
@@ -212,36 +209,64 @@ section.schedule_frontpage {
 
     @extend %lookAndFeelBorder;
 
-    .Presentation, .presentation, .Workshop, .workshop  {
+    .Workshop, .workshop, .Presentation, .presentation{ 
+      width: 50%;
       padding: 2*$style-margin;
-      text-align: left;
-      height: 100%;
-      border-left-width: 2*$style-margin;
-      border-left-style: solid;
-      div{
-        margin-bottom: $style-margin;
+      border: solid 2*$style-margin;
+      border-top: 0;
+      margin-bottom: 0;
+
+    }
+
+    .Presentation, .presentation  {
+      text-align: right;
+      border-left: 0;
+      border-bottom-left-radius: 2*$style-margin;
+      margin-top: $style-margin;
+      height: 12rem;
+      &::before {
+        content: "";
+        border: solid 2*$style-margin;
+        width: 0;
+        height: 0;
+        border-radius: 2*$style-margin;
+        display: inline-block;
+        position: relative;
+        top: -2*$style-margin;
+        right: -5*$style-margin;
+        border-color: inherit;
+        box-shadow: 0 0 0 $style-margin $color-white;
       }
+      
+      div.time {
+        text-align: right;
+      }
+
     }
 
-    ul.tracks {
-      height: 100%;
-      width: 100%;
-      display: table;
-    }
-
-    li.track {
-      width: 50%;
-      height: 100%;
-      display: table-cell;
-    }
-
-    li.workshops {
-      width: 50%;
-      height: 100%;
-      display: table-cell;
-
-      ul{
-        height: 100%;
+    .Workshop, .workshop {
+      text-align: left;
+      border-right: 0;
+      float: right;
+      border-bottom-right-radius: 2*$style-margin;
+      margin-top: $style-margin;
+      height: 24rem + $style-margin;
+      &::before {
+        content: "";
+        border: solid 2*$style-margin;
+        width: 0;
+        height: 0;
+        border-radius: 2*$style-margin;
+        display: inline-block;
+        position: relative;
+        top: -2*$style-margin;
+        left: -5*$style-margin;
+        border-color: inherit;
+        box-shadow: 0 0 0 $style-margin $color-white;
+      }
+      
+      div.time {
+        text-align: left;
       }
     }
   }
