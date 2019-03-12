@@ -1,7 +1,7 @@
 ---
 title: "Integrating Developer Experiences - Build Server Protocol and beyond"
 layout: talk
-lookAndFeel: pink
+lookAndFeel: gray
 page_name: "kaeser"
 type: "Presentation"
 level: "Intermediate"

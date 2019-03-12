@@ -1,7 +1,7 @@
 ---
 title: "Property-Based Testing The Ugly Parts: Case Studies from Komposition"
 layout: talk
-lookAndFeel: amber
+lookAndFeel: blue-gray
 page_name: "wickstrom"
 type: "Presentation"
 level: "Intermediate"

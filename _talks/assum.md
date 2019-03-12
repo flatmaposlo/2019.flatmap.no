@@ -1,7 +1,7 @@
 ---
 title: "Transducers - composable algorithmic transformations"
 layout: talk
-lookAndFeel: orange
+lookAndFeel: light-blue
 page_name: "assum"
 type: "Presentation"
 level: "Intermediate"

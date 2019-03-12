@@ -1,7 +1,7 @@
 ---
 title: "Building a reactive multi-user document editor in ScalaJS"
 layout: talk
-lookAndFeel: orange
+lookAndFeel: deep-orange
 page_name: "ypma"
 type: "Presentation"
 level: "Intermediate"

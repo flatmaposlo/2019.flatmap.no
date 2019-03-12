@@ -1,7 +1,7 @@
 ---
 title: "Using Haskell at FINN.no"
 layout: talk
-lookAndFeel: amber
+lookAndFeel: light-green
 page_name: "millidahl"
 type: "Presentation"
 level: "Beginner"

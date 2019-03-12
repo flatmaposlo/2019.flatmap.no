@@ -1,7 +1,7 @@
 ---
 title: "Impractical Lambda Calculus"
 layout: talk
-lookAndFeel: green
+lookAndFeel: blue
 page_name: "lambda"
 type: "Presentation"
 level: "Beginner"

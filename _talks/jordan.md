@@ -1,7 +1,7 @@
 ---
 title: "Tagless Final: Purity And Performance In Scala"
 layout: talk
-lookAndFeel: orange
+lookAndFeel: purple
 page_name: "jordan"
 type: "Workshop"
 level: "Intermediate"

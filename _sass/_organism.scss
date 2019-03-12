@@ -202,15 +202,23 @@ section.schedule_frontpage {
 
   .schedule {
 
-    .conference {
+    .conference, .item {
       padding: 2*$style-margin;
       text-align: center;
+      .time {
+        text-align: center;
+      }
     }
 
     @extend %lookAndFeelBorder;
 
     .Workshop, .workshop, .Presentation, .presentation{ 
-      width: 50%;
+      @media screen and (min-width: 800px) {
+        width: 50%;
+      }
+      @media screen and (max-width: 799px) {
+        width: 100%;
+      }
       padding: 2*$style-margin;
       border: solid 2*$style-margin;
       border-top: 0;
@@ -223,7 +231,9 @@ section.schedule_frontpage {
       border-left: 0;
       border-bottom-left-radius: 2*$style-margin;
       margin-top: $style-margin;
-      height: 12rem;
+      @media screen and (min-width: 800px) {
+        height: 12rem;
+      }
       &::before {
         content: "";
         border: solid 2*$style-margin;
@@ -247,10 +257,14 @@ section.schedule_frontpage {
     .Workshop, .workshop {
       text-align: left;
       border-right: 0;
-      float: right;
+      @media screen and (min-width: 800px) {
+        height: 24rem + $style-margin;
+        float: right;
+      }
+      
       border-bottom-right-radius: 2*$style-margin;
       margin-top: $style-margin;
-      height: 24rem + $style-margin;
+      
       &::before {
         content: "";
         border: solid 2*$style-margin;

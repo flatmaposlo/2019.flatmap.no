@@ -1,7 +1,7 @@
 ---
 title: "A Gentle, Practical Introduction to Path-Dependent Types"
 layout: talk
-lookAndFeel: yellow
+lookAndFeel: black
 page_name: "van-geest"
 type: "Presentation"
 level: "Intermediate"
