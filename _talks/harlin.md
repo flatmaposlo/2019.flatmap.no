@@ -1,6 +1,6 @@
 ---
 title: "Typeful, functional, streaming HTTP for Scala with http4s"
-layout: workshop
+layout: talk
 lookAndFeel: amber
 page_name: "harlin"
 type: "Workshop"
