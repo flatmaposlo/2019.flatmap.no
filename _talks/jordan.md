@@ -34,5 +34,5 @@ description: >
 speakers:
 - name: "Eli Jordan"
   bio: <p>Elias Jordan, Senior Software Engineer at Tapad, is a Scala developer with 9 years of experience, and a passion for functional programming. Before moving from Sydney, Australia to Oslo, Norway to join the Tapad team, Elias spent 7 years at IBM working as a Lead Developer. In addition to his extensive experience writing in Scala, Elias has also specialized in using programming languages, Haskell and Java. Elias graduated from the University of New South Wales in 2011 with a degree in Computer Science and Mechanical Engineering.</p>
-  image: "jordan.png"
+  image: "jordan.jpeg"
 ---
