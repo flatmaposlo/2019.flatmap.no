@@ -99,7 +99,7 @@ nav {
       text-align: center;
       padding: $style-margin;
       padding-right: 2*$style-margin;
-      display: inline;
+      display: inline-block;
 
     }
   }
@@ -117,6 +117,7 @@ nav {
       padding-bottom: 0;
       margin-bottom: 0;
       line-height: 0;
+      margin-top: $style-margin * 4;
     }
   }
 }
