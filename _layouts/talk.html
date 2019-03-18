@@ -17,7 +17,9 @@ permalink: /talks/:name
     {% for speaker in talk.speakers %}
     <div class="speaker">
       <a name="{{ speaker.name }}"></a>
-      <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+      <div class="image">
+        <img class="speakerImage" src="{{ site.path }}/assets/img/{{ speaker.image}}" alt="{{speaker.name}}" />
+      </div>
       <h3>{{ speaker.name }}</h3>
       {% if speaker.twitter %}
         <p><a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
