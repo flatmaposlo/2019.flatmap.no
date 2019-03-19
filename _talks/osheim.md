@@ -2,7 +2,7 @@
 title: "Galaxy brain: type-dependence and state-dependence in property-based testing"
 layout: talk
 lookAndFeel: indigo
-page_name: "van-geest"
+page_name: "osheim"
 type: "Presentation"
 level: "All"
 tags:

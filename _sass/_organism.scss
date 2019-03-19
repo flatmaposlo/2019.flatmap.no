@@ -224,6 +224,24 @@ section.schedule_frontpage {
       }
     }
 
+    .speaker{
+      margin-top: 2*$style-margin;
+    }
+
+    .image{
+      @media screen and (max-width: 799px) {
+        display: none;
+      }
+      @media screen and (min-width: 800px) {
+        display: inline-block;
+      }
+      height: 80px;
+      width: 80px;
+      overflow: hidden;
+      border-radius: 40px;
+      text-align: center;
+    }
+
     @extend %lookAndFeelBorder;
 
     .Workshop, .workshop, .Presentation, .presentation{ 
@@ -245,7 +263,7 @@ section.schedule_frontpage {
       border-left: 0;
       margin-top: $style-margin;
       @media screen and (min-width: 800px) {
-        height: 12rem;
+        height: 15rem;
       }
       &::before {
         content: "";
@@ -261,8 +279,12 @@ section.schedule_frontpage {
         box-shadow: 0 0 0 $style-margin $color-white;
       }
       
-      div.time {
+      div.time{
         text-align: right;
+      }
+
+      .image{
+        float: left;
       }
 
     }
@@ -271,7 +293,7 @@ section.schedule_frontpage {
       text-align: left;
       border-right: 0;
       @media screen and (min-width: 800px) {
-        height: 24rem + $style-margin;
+        height: 30rem + $style-margin;
         float: right;
       }
       
@@ -289,6 +311,11 @@ section.schedule_frontpage {
         left: -5*$style-margin;
         border-color: inherit;
         box-shadow: 0 0 0 $style-margin $color-white;
+      }
+
+
+      .image{
+        float: right;
       }
       
       div.time {
