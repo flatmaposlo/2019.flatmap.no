@@ -18,7 +18,7 @@ speakers:
   name: "Paweł Cejrowski"
   bio: >
     <p>Paweł Cejrowski has almost 5 years experience as a software engineer and a vast majority of that time he has spent with Scala. He’s keen on operationalization of data processing at scale and works with Scala for providing data science tooling for Tapad. After hours, he occasionally contributes to OSS (including Scala Native backend to Softwaremill’s Sttp) and tries to release his first mobile app. </p>
-  image: "missing.jps"
+  image: "missing.jpg"
   twitter: pcejrowski
 -
   name: "Jostein Gogstad"
