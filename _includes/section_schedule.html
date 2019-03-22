@@ -1,11 +1,26 @@
 
-<section class="schedule_frontpage">
+<section id="schedule" class="schedule_frontpage">
     <h1>Schedule</h1>
     <div class="days">
-        <a href="#day0" class="day">Day 0</a> | <a href="#day1" class="day">Day 1</a> | <a href="#day2" class="day">Day 2</a>
+        <a href="#day1" class="day">Day 1</a> | <a href="#day2" class="day">Day 2</a>
     </div>
     <div class="row">
         <a name="schedule"></a>        
+
+        <div class="day">
+            <a name="day0"></a>
+            <h3>DAY 0</h3>
+        </div>
+        <div class="schedule">
+                <div class="Presentation lookAndFeel orange">
+                    <a href="https://www.meetup.com/scalabin/events/259982942/">
+                        <div class="time">1000 - 1800</div>
+                        <div>OPEN SOURCE SPREE</div>
+                        <div class="conference ">(free for all, separate registration at meetup)</div>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <div class="day">
             <a name="day1"></a>
@@ -16,7 +31,7 @@
                 <div class="time">08:00</div>
                 <div class="conference ">REGISTRATION, COFFEE</div>
             </div>
-            <div class="item">   
+            <div class="item">
                 <div class="time">08:45</div>
                 <div class="conference ">WELCOME, PRACTICAL INFORMATION</div>
             </div>
@@ -32,8 +47,8 @@
             {% include slot.html from="12:30" to="13:10" talk="ypma" %}
             {% include slot.html from="13:20" to="14:00" talk="berg" %}
             {% include slot.html from="14:20" to="15:00" talk="van-geest" %}
-            {% include slot.html from="15:10" to="15:50" talk="assum" %}
             {% include slot.html from="15:10" to="16:50" talk="jordan" %}
+            {% include slot.html from="15:10" to="15:50" talk="assum" %}
             {% include slot.html from="16:10" to="16:50" talk="davletkaliyev" %}
             {% include slot.html from="17:00" to="17:40" talk="lambda" %}
             <div class="item">   
@@ -53,13 +68,13 @@
                 <div class="time">11:40</div>
                 <div class="conference ">LUNCH</div>
             </div>
+            {% include slot.html from="12:30" to="14:00" talk="scala_native" %}
             {% include slot.html from="12:30" to="13:10" talk="asadorian" %}
-            {% include slot.html from="12:30" to="14:00" talk="gogstad" %}
             {% include slot.html from="13:20" to="14:00" talk="millidahl" %}
             {% include slot.html from="14:20" to="15:00" talk="duponcheel" %}
             {% include slot.html from="15:10" to="15:50" talk="birchall" %}
             {% include slot.html from="16:10" to="16:50" talk="kaeser" %}
-            {% include slot.html from="17:00" to="17:40" talk="skully" %}
+            {% include slot.html from="17:00" to="17:40" talk="scully" %}
         </div>
     </div>
 </section>
