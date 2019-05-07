@@ -92,3 +92,9 @@ ul {
   margin-left: $style-margin-large;
   font-size: calc(0.2vw + 1rem);
 }
+
+code {
+  font-family: monospace;
+  border-left: $style-border;
+  padding: 2*$style-margin;
+}

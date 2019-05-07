@@ -13,6 +13,13 @@ abstract: >
    <p>Take a Scala Native journey with us and learn about systems level programming in your favorite language. We’ll write a natively compiled CLI using Scala Native, and teach participants how they can use the Scala type system to interface with system level shared libraries. </p>
 description: >
    <p>After being out of favor for a while, natively compiled applications are making a comeback. Scala Native offers a concise way of writing low-level system code using the Scala type system. It compiles regular Scala code to machine code, reducing application startup to mere milliseconds. In our workshop, we’ll make the journey from hello world, to low-level system programming with native primitives, and ahead of time compiled regular Scala; all in the Scala environment you’re familiar with. </p> 
+
+   <h3>Pre requirements</h3>
+   <p>In order to get up to speed quickly, please install LLVM prior to the workshop</p>
+   <h4>macOS</h4>
+   <code>brew install llvm</code>
+   <h4>Ubuntu</h4>
+   <p>It comes with, no need to install</p>
 speakers:
 -
   name: "Paweł Cejrowski"
