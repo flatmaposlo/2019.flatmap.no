@@ -5,6 +5,7 @@ lookAndFeel: light-green
 page_name: "millidahl"
 type: "Presentation"
 level: "Beginner"
+youtube: "hxXe7aWmCxc"
 tags:
   - Haskell
   - Experience Report

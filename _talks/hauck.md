@@ -5,6 +5,7 @@ lookAndFeel: cyan
 page_name: "hauck"
 type: "Presentation"
 level: "Intermediate"
+youtube: "sHV4qhbZHgo"
 tags:
   - FP
   - scala

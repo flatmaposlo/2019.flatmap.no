@@ -5,6 +5,7 @@ lookAndFeel: blue
 page_name: "lambda"
 type: "Presentation"
 level: "Beginner"
+youtube: "GElLnRy6Xoc"
 tags: 
   - Lambda Calculus
 abstract: >

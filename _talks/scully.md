@@ -5,6 +5,7 @@ lookAndFeel: cyan
 page_name: "scully"
 type: "Presentation"
 level: "Beginner"
+youtube: "QJQRY9xsFkw"
 tags: 
   - Haskell
   - Purescript

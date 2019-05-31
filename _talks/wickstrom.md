@@ -5,6 +5,7 @@ lookAndFeel: blue-gray
 page_name: "wickstrom"
 type: "Presentation"
 level: "Intermediate"
+youtube: "z2ete8VZnZY"
 tags:
   - Haskell
   - testing

@@ -5,6 +5,7 @@ lookAndFeel: green
 page_name: "menestret"
 type: "Presentation"
 level: "All"
+youtube: "_zRBKHN8exA"
 tags:
   - scala
   - functional programming

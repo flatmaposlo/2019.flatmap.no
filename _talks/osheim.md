@@ -5,6 +5,7 @@ lookAndFeel: indigo
 page_name: "osheim"
 type: "Presentation"
 level: "All"
+youtube: "O78hnJuzQwA"
 tags:
   - Scala
   - Path Dependant Types

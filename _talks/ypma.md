@@ -5,6 +5,7 @@ lookAndFeel: deep-orange
 page_name: "ypma"
 type: "Presentation"
 level: "Intermediate"
+youtube: "qUd45VKar_o"
 tags:
   - scalajs
   - outwatch

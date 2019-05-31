@@ -5,6 +5,7 @@ lookAndFeel: cyan
 page_name: "asadorian"
 type: "Presentation"
 level: "All"
+youtube: "qVR-OWvy_Go"
 tags: 
   - scala
   - cats

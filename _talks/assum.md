@@ -5,6 +5,7 @@ lookAndFeel: light-blue
 page_name: "assum"
 type: "Presentation"
 level: "Intermediate"
+youtube: "_4sgTq4_OjM"
 tags:
   - Clojure
   - Algorithms

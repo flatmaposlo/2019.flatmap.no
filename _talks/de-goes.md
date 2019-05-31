@@ -5,6 +5,7 @@ lookAndFeel: pink
 page_name: "de-goes"
 type: "Presentation"
 level: "All"
+youtube: "08eSR0vn4Vw"
 tags:
   - Scala
   - Monads

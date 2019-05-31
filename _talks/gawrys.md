@@ -5,6 +5,7 @@ lookAndFeel: green
 page_name: "gawrys"
 type: "Presentation"
 level: "Beginner"
+youtube: "InctntW3CAA"
 tags:
   - scala
   - functional programming

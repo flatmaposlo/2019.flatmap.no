@@ -8,8 +8,9 @@ permalink: /talks/:name
 <section class="talk">
   <div class="wrap">
     <h2>{{ talk.title }}</h2>
-    {% if talk.movie %}
-      <iframe class="movie" src="{{ talk.movie }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    {% if talk.youtube %}
+      <!--iframe class="movie" src="{{ talk.movie }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe -->
+      <iframe class="movie" src="https://www.youtube.com/embed/{{talk.youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
     {% endif %}
     <p class="type">{{ talk.type }}</p>
     <div class="description">{{ talk.description }}</div>

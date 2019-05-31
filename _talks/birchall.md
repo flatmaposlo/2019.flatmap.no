@@ -5,6 +5,7 @@ lookAndFeel: cyan
 page_name: "birchall"
 type: "Presentation"
 level: "Beginner"
+youtube: "sdUpjVjPEI0"
 tags: 
   - Machine Learning
   - Scala

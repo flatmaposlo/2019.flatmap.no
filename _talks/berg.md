@@ -5,6 +5,7 @@ lookAndFeel: orange
 page_name: "berg"
 type: "Presentation"
 level: "Intermediate"
+youtube: "R1Z_u2rEDj4"
 tags:
   - Scala.js
   - Typescript

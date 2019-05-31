@@ -5,6 +5,7 @@ lookAndFeel: black
 page_name: "van-geest"
 type: "Presentation"
 level: "Intermediate"
+youtube: "I1RAij4aX6Y"
 tags:
   - Scala
   - Path Dependant Types
