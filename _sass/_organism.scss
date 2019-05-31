@@ -73,18 +73,6 @@
 
 .talk {
 
-  .movie{
-    @include on-device(medium) {
-      height: 300px;
-    }
-  
-    @include on-device(large) {
-      height: 450px;
-      
-    }
-    width: 100%;
-  }
-
   .type{
     font-family: $font-family-subheading;
   }
